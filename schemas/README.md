@@ -1,4 +1,6 @@
-### **Summary of Key Upgrades**
+### **Summary of Key Upgrades**  
+Date: 08/22/2024 
+Original version located: `v3.0/smartapi_schema.json`
 
 1. **Schema Version**
    - **Upgraded** from JSON Schema Draft-04 to Draft 2020-12 for better compatibility with modern standards.
