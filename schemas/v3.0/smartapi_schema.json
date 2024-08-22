@@ -201,23 +201,21 @@
                 }
             }
         },
-        {
-            "responseValueType": {
-                "allOf": [
-                    {
-                        "anyOf": [
-                            { "required": ["path"] },
-                            { "required": ["x-path"] }
-                        ]
-                    },
-                    {
-                        "anyOf": [
-                            { "required": ["valueType"] },
-                            { "required": ["x-valueType"] }
-                        ]
-                    }
-                ]
-            }
+        "responseValueType": {
+            "allOf": [
+                {
+                    "anyOf": [
+                        { "required": ["path"] },
+                        { "required": ["x-path"] }
+                    ]
+                },
+                {
+                    "anyOf": [
+                        { "required": ["valueType"] },
+                        { "required": ["x-valueType"] }
+                    ]
+                }
+            ]
         },
         "tag": {
             "properties": {
